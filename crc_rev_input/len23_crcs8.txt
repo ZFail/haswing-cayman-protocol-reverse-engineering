@@ -1,0 +1,10 @@
+crc_rev_input/len23_d8_0.bin 0x65
+crc_rev_input/len23_d8_1.bin 0xa3
+crc_rev_input/len23_d8_2.bin 0x7e
+crc_rev_input/len23_d8_3.bin 0xdd
+crc_rev_input/len23_d8_4.bin 0x55
+crc_rev_input/len23_d8_5.bin 0xb9
+crc_rev_input/len23_d8_6.bin 0xac
+crc_rev_input/len23_d8_7.bin 0xa0
+crc_rev_input/len23_d8_8.bin 0xb0
+crc_rev_input/len23_d8_9.bin 0x13

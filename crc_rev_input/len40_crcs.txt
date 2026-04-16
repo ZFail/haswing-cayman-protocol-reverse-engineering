@@ -1,0 +1,10 @@
+crc_rev_input/len40_d0.bin 0xa6d9
+crc_rev_input/len40_d1.bin 0xe62b
+crc_rev_input/len40_d2.bin 0x38a5
+crc_rev_input/len40_d3.bin 0x7857
+crc_rev_input/len40_d4.bin 0x47f9
+crc_rev_input/len40_d5.bin 0x8d36
+crc_rev_input/len40_d6.bin 0xb298
+crc_rev_input/len40_d7.bin 0xf26a
+crc_rev_input/len40_d8.bin 0xfecb
+crc_rev_input/len40_d9.bin 0xbe39

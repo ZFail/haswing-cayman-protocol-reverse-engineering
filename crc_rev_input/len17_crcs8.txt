@@ -1,0 +1,10 @@
+crc_rev_input/len17_d8_0.bin 0x5c
+crc_rev_input/len17_d8_1.bin 0x1b
+crc_rev_input/len17_d8_2.bin 0x77
+crc_rev_input/len17_d8_3.bin 0xd6
+crc_rev_input/len17_d8_4.bin 0x49
+crc_rev_input/len17_d8_5.bin 0xd5
+crc_rev_input/len17_d8_6.bin 0x44
+crc_rev_input/len17_d8_7.bin 0x9e
+crc_rev_input/len17_d8_8.bin 0x0f
+crc_rev_input/len17_d8_9.bin 0x7f
