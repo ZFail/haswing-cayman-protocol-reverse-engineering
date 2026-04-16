@@ -9,10 +9,19 @@ def parse_packets(filename):
             line = line.strip()
             if not line:
                 continue
-            # Extract hex bytes after the "->"
+            # Extract hex bytes: try to find '->' for timestamped format
             match = re.search(r'->\s+((?:[0-9A-Fa-f]{2}\s)+)', line)
             if match:
                 hex_str = match.group(1).strip()
+            else:
+                # Fallback: assume the line starts with hex bytes until '[' or double space, or just read the hex chars
+                match = re.match(r'^((?:[0-9A-Fa-f]{2}\s*)+)', line)
+                if match:
+                    hex_str = match.group(1).strip()
+                else:
+                    continue
+                    
+            if hex_str:
                 raw = bytes.fromhex(hex_str.replace(' ', ''))
                 packets.append(raw)
     return packets
