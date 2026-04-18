@@ -20,18 +20,18 @@ dumps/
 The USR-WIFI232-S module is located in the motor head. It handles wireless communication between the motor and the remote control (and phones — Android connects via the remote, iPhone likely works directly with the module).
 
 From the config dump:
+
 - Protocol: **UDP**, server mode
 - Port: **14550**
 - Motor sends data to IP **192.168.1.150** (DHCP-assigned when connecting to the motor's WiFi)
-- WiFi SSID: **HSW_m4Cgo** (configurable via official app)
-- WiFi key: **OPEN,NONE** (no password)
+- WiFi SSID: varies per motor, e.g. **HSW_m4Cgo** (can view via wifi search)
+- WiFi key: varies per motor, configurable via official app
 
 The RS-485 bus runs at **9600 baud** between the motor head and the lower control board.
 
 ## Scripts
 
-- `parse_pymavlink.py` — parse MAVLink v1 packets from a text dump using pymavlink
-- `parse_rs485.py` — parse RS-485 packets (if present)
+- `scripts/parse_pymavlink.py` — parse MAVLink v1 packets from a text dump using pymavlink, can be used to parse files from dumps/rs232_mavlink_v1 folder
 
 ## Setup
 
@@ -41,6 +41,7 @@ py -3 -m venv venv
 ```
 
 Usage:
+
 ```bash
 ./venv/Scripts/python.exe parse_pymavlink.py <packets.txt>
 ```
