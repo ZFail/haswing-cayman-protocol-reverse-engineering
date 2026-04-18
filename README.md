@@ -1,4 +1,4 @@
-# Haswing Cayman 55 Protocol Analysis
+# Haswing Cayman 55 GPS v1.6 Protocol Analysis
 
 **📘 Protocol Documentation: [Haswing-Motor-Control.md](./Haswing-Motor-Control.md)**
 
