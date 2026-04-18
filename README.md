@@ -1,5 +1,7 @@
 # Haswing Cayman 55 Protocol Analysis
 
+**📘 Protocol Documentation: [Haswing-Motor-Control.md](./Haswing-Motor-Control.md)**
+
 Packet dumps and scripts for reverse-engineering the communication protocol of the Haswing Cayman 55 outboard motor.
 
 ## Directory Structure
