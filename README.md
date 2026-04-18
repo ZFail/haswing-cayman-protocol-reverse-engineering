@@ -27,6 +27,7 @@ From the config dump:
 - WiFi SSID: varies per motor, e.g. **HSW_m4Cgo** (can view via wifi search)
 - WiFi key: varies per motor, configurable via official app
 
+The RS-232 bus runs at **115200 baud** between the USR-WIFI232-S module and motor head central processor.
 The RS-485 bus runs at **9600 baud** between the motor head and the lower control board.
 
 ## Scripts
