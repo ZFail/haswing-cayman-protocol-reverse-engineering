@@ -1,0 +1,369 @@
+# this interaction with module usr_wifi232_s placed inside head of Haswing Cayman 55 GPS is based on this documentation https://www.mpja.com/download/32692mp%20usr-wifi232%20low%20power%20wifi%20module%20user%20manual%20v3.0.pdf
+
++ok=UDP,Server,14550,192.168.1.150
+
+FE2100FFBE4C000000000000000000000000000000000000000000000000000000000A00000000604D
+FE2100FFBE4C0000000000000000000000000000000000000000000000000000000008000000003645
+FE0900FFBE00000000006A000000034DAE
+
+41 54 2B 57 41 50 0A 0D 2B 6F 6B 3D 31 31 42 47 4E 2C 48 53 57 5F 6D 34 43 67 6F 2C 43 48 38 0D 0A 0D 0A41 54 2B 57 41 50 3D 31 31 42 47 4E 2C 48 53 57 5F 6D 34 43 67 6F 2C 43 48 35 0A 0D2B 6F 6B 0D 0A 0D 0A 41 54 2B 5A 0A 0D2B : +
+2B : +
+2B : +
+0D : .
+0A : .
+61 : a
+0D : .
+0A : .
+41 : A
+54 : T
+2B : +
+48 : H
+0D : .
+0A : .
+2B : +
+2B : +
+2B : +
+a61 : a
++ok
+
+41 : A
+54 : T
+2B : +
+48 : H
+0D : .
+0A : .
+AT+H
+
+   AT+: NoNE command, reply "+ok".
+   AT+ASWD: Set/Query WiFi configuration code. 
+   AT+E: Echo ON/Off, to turn on/off command line echo function. 
+   AT+ENTM: Goto Through MOde.
+   AT+NETP: Set/Get the Net Protocol Parameters.
+   AT+MSLP: Set/Query deep sleep mode parameters.
+   AT+PING: General PING command.
+   AT+WMODE: Set/Get the WIFI Operation Mode (AP or STA).
+   AT+WSLK: Get Link Status of the Module (Only for STA Mode).
+   AT+WSLQ: Get Link Quality of the Module (Only for STA Mode).
+   AT+WSCAN: Get The AP site Survey (only for STA Mode).
+   AT+TCPLK: Get The state of TCP link.
+   AT+TCPTO: Set/Get TCP time out.
+   AT+TCPDIS: Connect/Dis-connect the TCP Client link
+   AT+RECV: Recv data from WIFI
+   AT+SEND: Send data to WIFI
+
+   AT+WEBU: Set/Get the Login Parameters of WEB page.
+   AT+WEBVER: Get WEB version.
+   AT+WSDNS: Set/Get the DNS Server address.
+   AT+WADMN: Set/Get the domain name of WEB page.
+   AT+WEBSWITCH: Set/Get the parameters of WEB page.
+   AT+PLANG: Set/Get the language of WEB page.
+   AT+UPURL: Set/Get the path of remote upgrade.
+   AT+UPFILE: Set/Get the file name of config file for remote upgrade.
+   AT+UPST: Start the remote upgrade.
+   AT+UPWEB: Start the remote upgrade webpages.
+   AT+UPCFG: Start the remote upgrade default setting.
+   AT+UPAUTO: Start the remote upgrade by config file.
+   AT+LOGSW: Enable/Disable upload logs.
+   AT+LOGPORT: Set/Get the UDP port for upload logs.
+   AT+SOCKB: Set/Get Par
+ameters of socket_b.
+   AT+TCPLKB: Get The state of TCP_B link.
+   AT+TCPTOB: Set/Get TCP_B time out.
+   AT+TCPDISB: Connect/Dis-connect the TCP_B Client link.
+   AT+RCVB: Recv data from socket_b
+   AT+SNDB: Send data to socket_b
+   AT+RELD: Reload the default setting and reboot.
+   AT+SLPEN: Put on/off the GPIO7.
+   AT+RLDEN: Put on/off the GPIO45.
+   AT+Z: Reset the Module.
+   AT+MID: Get The Module ID.
+   AT+VER: Get application version.
+   AT+USERVER: Get user version
+   AT+CUSTOMER: Get customer version
+AT+RPTMAC: Get Report MAC State
+AT+WRRPTMAC: Set Report MAC State
+AT+RPTMACTP: Set Report MAC type
+AT+DTDDIS: Query or set D2D function enable or disa
+ble
+AT+DTDID: Query or set D2D ID
+AT+HTPEN: Query or set httpd function enable or disable
+AT+HTPTP: Query or set httpd request type
+AT+HTPSV: Query or set httpd server ip and port
+AT+HTPHD: Query or set httpd request header
+AT+HTPURL: Query or set httpd request url
+AT+HTPTO: Query or set httpd time out
+AT+HTPFT: Query or set httpd filter enable or disable
+AT+WIFICHK: Query or set if wifi error check is enable
+AT+CHKTIME: Query or set wifi error check time
+AT+RSEN: Query or set RS485 function enable or disable
+AT+CLOUDEN: Query or set passthrough cloud function enable or disable
+AT+CLOUDID: Query or set device id of passthrough cloud function
+AT+CLOUDPW: Query or set password of pa
+ssthrough cloud function
+AT+REGDIS: Query or set register function enable or disable
+AT+REGUSR: Query or set data of register
+AT+DTTY: Query or set type of data
+AT+USRBIN: Erase data of usrbin
+   AT+WANN: Set/Get The WAN setting if in STA mode.
+   AT+LANN: Set/Get The LAN setting if in ADHOC mode.
+   AT+UART: Set/Get the UART0/UART1 Parameters.
+   AT+WSSSID: Set/Get the AP's SSID of WIFI STA Mode.
+   AT+WAP: Set/Get the AP parameters.
+   AT+WSKEY: Set/Get the Security Parameters of WIFI STA Mode.
+   AT+WAKEY: Set/Get the Security Parameters of WIFI AP Mode.
+   AT+NTPSER: Set/Get NTP Server address.
+   AT+UDPLCPT: Set/Get local UDP port.
+   AT+NDBGL:set/get debug level
+   AT+WPSBTNEN:enable/disab
+le wps button
+   AT+WALKIND:enable/disable LED indication of AP connection
+   AT+WADHCP:enable/disable AP dhcp server and set ip address pool
+   AT+MDCH: Put on/off automatic switching WIFI mode.
+   AT+WIFI=UP/DOWN: Power down or up  the wifi chip.
+   AT+SMTLKST=mode,protocol: Setup smartlnk mode and protocol.
+   AT+H:show help
++ok
+
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+45 : E
+42 : B
+55 : U
+0D : .
+0A : .
+AT+WEBU
+
++ok=admin,admin
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+4D : M
+4F : O
+44 : D
+45 : E
+0D : .
+0A : .
+AT+WMODE
+
++ok=AP
+
+
+41 : A
+54 : T
+2B : +
+4E : N
+45 : E
+54 : T
+50 : P
+0D : .
+0A : .
+AT+NETP
+
++ok=UDP,Server,14550,192.168.1.150
+
+
+41 : A
+54 : T
+2B : +
+50 : P
+49 : I
+4E : N
+47 : G
+0D : .
+0A : .
+
+AT+PING
+
++ERR=-3
+
+
+41 : A
+54 : T
+2B : +
+50 : P
+49 : I
+4E : N
+47 : G
+3D : =
+31 : 1
+39 : 9
+32 : 2
+2E : .
+31 : 1
+36 : 6
+38 : 8
+2E : .
+31 : 1
+2E : .
+32 : 2
+0D : .
+0A : .
+AT+PING=192.168.1.2
+
++ok=Success
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+53 : S
+4B : K
+45 : E
+59 : Y
+0D : .
+0A : .
+
+AT+WSKEY
+
++ok=OPEN,NONE
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+53 : S
+4B : K
+45 : E
+59 : Y
+0D : .
+0A : .
+AT+WSKEY
+
++ok=OPEN,NONE
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+41 : A
+4E : N
+4E : N
+0D : .
+0A : .
+AT+WANN
+
++ok=DHCP,0.0.0.0,0.0.0.0,0.0.0.0
+
+
+41 : A
+54 : T
+2B : +
+4C : L
+41 : A
+4E : N
+4E : N
+0D : .
+0A : .
+AT+LANN
+
++ok=192.168.1.1,255.255.255.0
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+41 : A
+50 : P
+0D : .
+0A : .
+AT+WAP
+
++ok=11BGN,HSW_m4Cgo,CH5
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+41 : A
+4B : K
+45 : E
+59 : Y
+0D : .
+0A : .
+AT+WAKEY
+
++ok=WPA2PSK,AES,1234567890
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+41 : A
+44 : D
+48 : H
+43 : C
+50 : P
+AT+WADHCP
+41 : A
+54 : T
+2B : +
+57 : W
+41 : A
+44 : D
+48 : H
+43 : C
+50 : P
+0D : .
+0A : .
+AT+WADHCP
+
++ERR=-2
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+41 : A
+44 : D
+48 : H
+43 : C
+50 : P
+0D : .
+0A : .
+AT+WADHCP
+
++ok=on,150,200
+
+
+41 : A
+54 : T
+2B : +
+57 : W
+45 : E
+42 : B
+55 : U
+0D : .
+0A : .
+AT+WEBU
+
++ok=admin,admin
+
+
+41 : A
+54 : T
+2B : +
+5A : Z
+0D : .
+0A : .
+AT+Z
+
+
+a
++ok
+
+
+
